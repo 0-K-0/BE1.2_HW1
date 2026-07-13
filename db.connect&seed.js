@@ -1,7 +1,7 @@
 import fs from "fs";
 import dotenv from "dotenv";
 import { ProfileData } from "./profile.model.js";
-import { error } from "console";
+
 import mongoose from "mongoose";
 
 const Data_User = fs.readFileSync("data.json", "utf8");
