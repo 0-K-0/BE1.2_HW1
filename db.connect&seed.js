@@ -22,7 +22,7 @@ const start = async () => {
     console.error("error", err);
   } finally {
     mongoose.connection.close();
-    await console.log("connection closed");
+  console.log("connection closed");
   }
 };
 start();
